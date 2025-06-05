@@ -58,7 +58,7 @@ spring:
           filters:
             - AuthFilter
 
-        - id: santacruz-auth-service
-          uri: lb://santacruz-auth-service
+        - id: ms-auth-service
+          uri: lb://ms-auth-service
           predicates:
             - Path=/auth/**
